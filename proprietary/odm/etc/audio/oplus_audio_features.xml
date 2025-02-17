@@ -12,6 +12,4 @@
     <feature name="gvoice_adsp_supoort_mode" config="0011"/>
     <feature name="CAMCORDER_SWAP_MIC" config="SUPPORT"/>
     <feature name="OPLUS_USB_PERIOD_US" config="16000"/>
-    <feature name="OPLUS_RECORD_MODE_SWITCH" config="NOTSUPPORT"/>
-    <feature name="OPLUS_SPEECH_OPEN_SEQUENCE" config="yes"/>
 </audio_config>

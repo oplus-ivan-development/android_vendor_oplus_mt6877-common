@@ -52,11 +52,5 @@ import /vendor/etc/init/microtrust.init_thh.rc
 #ifdef OPLUS_FEATURE_STORAGE
 #Xuefeng.Peng@ANDROID.STORAGE.0, 2020/12/24, Add for meta and factory bind mount data on cache
 on property:ro.bootmode=factory
-    exec - root root -- /bin/chmod 777 -R /mnt/vendor/oplusreserve/ftm_log
-    exec - system system -- /bin/rm -rf /mnt/vendor/oplusreserve/ftm_log
-    mkdir /data/debuglogger/mobilelog
-    mkdir /mnt/vendor/oplusreserve/ftm_log
-    chown system system /mnt/vendor/oplusreserve/ftm_log
-    chmod 777 /mnt/vendor/oplusreserve/ftm_log
-    mount none /mnt/vendor/oplusreserve/ftm_log /data/debuglogger/mobilelog bind rec
+    mount none /mnt/vendor/oplusreserve /data/debuglogger bind rec
 #endif

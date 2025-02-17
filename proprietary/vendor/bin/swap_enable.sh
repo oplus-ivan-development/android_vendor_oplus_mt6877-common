@@ -38,10 +38,7 @@ function oplus_configure_zram_parameters() {
 			echo 3221225472 > /sys/block/zram0/disksize
 		else
 			#config 4GB zramsize with ramsize >=8GB
-			echo zstd > /sys/block/zram0/comp_algorithm
-			echo 5368709120 > /sys/block/zram0/disksize
-			echo 200 > /proc/sys/vm/swappiness
-			echo 0 > /proc/sys/vm/direct_swappiness
+			echo 4294967296 > /sys/block/zram0/disksize
 		fi
 		/vendor/bin/mkswap /dev/block/zram0
 		/vendor/bin/swapon /dev/block/zram0
@@ -61,13 +58,12 @@ function oplus_configure_dynamic_swappiness() {
 		echo 2000 > /proc/sys/vm/swappiness_threshold1_size
 		echo 120 > /proc/sys/vm/vm_swappiness_threshold2
 		echo 1500 > /proc/sys/vm/swappiness_threshold2_size
-		echo 25 > /proc/sys/vm/watermark_scale_factor
+		echo 30 > /proc/sys/vm/watermark_scale_factor
 	elif [ $MemTotal -le 12582912 ]; then
 		echo 120 > /proc/sys/vm/vm_swappiness_threshold1
 		echo 3600 > /proc/sys/vm/swappiness_threshold1_size
 		echo 140 > /proc/sys/vm/vm_swappiness_threshold2
 		echo 1500 > /proc/sys/vm/swappiness_threshold2_size
-		echo 25 > /proc/sys/vm/watermark_scale_factor
 	fi
 }
 

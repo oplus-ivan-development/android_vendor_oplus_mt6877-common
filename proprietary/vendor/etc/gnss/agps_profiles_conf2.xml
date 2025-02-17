@@ -1005,9 +1005,9 @@
     beidou_msb_enable="true"
     galileo_msa_enable="true"
     galileo_msb_enable="true"
-
     customer_ca_path="/my_product/etc/gps/agps/cacerts_supl/"
   />
+
   <!-- carrier_mapping
      This feature can be turned on by carrier_xml_enable.
      When user inserts a SIM/UICC with IMSI=xxxyyyddddddddd, we will try to load
@@ -1145,7 +1145,6 @@
       v1="71617"
     />
   </carrier_mapping>
-
   <carrier_mapping name="CT">
     <mcc_mnc
       v1="46011"

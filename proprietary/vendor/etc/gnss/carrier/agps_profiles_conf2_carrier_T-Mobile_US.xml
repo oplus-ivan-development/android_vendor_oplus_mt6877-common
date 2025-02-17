@@ -26,7 +26,6 @@
 
   <cp_setting
     reject_non911_nilr_enable="true"
-    cp_lppe_civic_enable="false"
   />
 
   <up_setting
@@ -38,7 +37,6 @@
     beidou_msb_enable="false"
     galileo_msa_enable="false"
     galileo_msb_enable="false"
-    up_lppe_civic_enable="false"
   />
 
 </mtk_agps_profiles>

@@ -17,23 +17,17 @@
 <apn carrier="ATT SOS(wifi)" mcc="310" mnc="070" apn="sos" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
 <apn carrier="ATT SOS" mcc="310" mnc="090" apn="" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
 <apn carrier="ATT SOS(wifi)" mcc="310" mnc="090" apn="sos" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
-<apn carrier="T-Mobile US 160 Emergency" mcc="310" mnc="160" apn="" protocol="IPV6" roaming_protocol="IPV4V6" type="emergency" />
+<apn carrier="T-Mobile US 160 Emergency" mcc="310" mnc="160" apn="" protocol="IPV6" roaming_protocol="IPV6" type="emergency" />
 <apn carrier="ATT SOS" mcc="310" mnc="170" apn="" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
 <apn carrier="ATT SOS(wifi)" mcc="310" mnc="170" apn="sos" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
-<apn carrier="T-Mobile US 200 Emergency" mcc="310" mnc="200" apn="" protocol="IPV6" roaming_protocol="IPV4V6" type="emergency" />
-<apn carrier="T-Mobile US 210 Emergency" mcc="310" mnc="210" apn="" protocol="IPV6" roaming_protocol="IPV4V6" type="emergency" />
-<apn carrier="T-Mobile US 220 Emergency" mcc="310" mnc="220" apn="" protocol="IPV6" roaming_protocol="IPV4V6" type="emergency" />
-<apn carrier="T-Mobile US 230 Emergency" mcc="310" mnc="230" apn="" protocol="IPV6" roaming_protocol="IPV4V6" type="emergency" />
-<apn carrier="T-Mobile US 240 Emergency" mcc="310" mnc="240" apn="" protocol="IPV6" roaming_protocol="IPV4V6" type="emergency" />
-<apn carrier="T-Mobile US 250 Emergency" mcc="310" mnc="250" apn="" protocol="IPV6" roaming_protocol="IPV4V6" type="emergency" />
-<apn carrier="T-Mobile US 260 Emergency" mcc="310" mnc="260" apn="" protocol="IPV6" roaming_protocol="IPV4V6" type="emergency" />
-<apn carrier="T-Mobile US 310 Emergency" mcc="310" mnc="310" apn="" protocol="IPV6" roaming_protocol="IPV4V6" type="emergency" />
-<apn carrier="T-Mobile US 660 Emergency" mcc="310" mnc="660" apn="" protocol="IPV6" roaming_protocol="IPV4V6" type="emergency" />
-<apn carrier="T-Mobile US 800 Emergency" mcc="310" mnc="800" apn="" protocol="IPV6" roaming_protocol="IPV4V6" type="emergency" />
-<apn carrier="T-Mobile US 490 Emergency" mcc="311" mnc="490" apn="" protocol="IPV6" roaming_protocol="IPV4V6" type="emergency" />
-<apn carrier="T-Mobile US 660 Emergency" mcc="311" mnc="660" apn="" protocol="IPV6" roaming_protocol="IPV4V6" type="emergency" />
-<apn carrier="T-Mobile US 882 Emergency" mcc="311" mnc="882" apn="" protocol="IPV6" roaming_protocol="IPV4V6" type="emergency" />
-<apn carrier="T-Mobile US 250 Emergency" mcc="312" mnc="250" apn="" protocol="IPV6" roaming_protocol="IPV4V6" type="emergency" />
+<apn carrier="T-Mobile US 200 Emergency" mcc="310" mnc="200" apn="" protocol="IPV6" roaming_protocol="IPV6" type="emergency" />
+<apn carrier="T-Mobile US 210 Emergency" mcc="310" mnc="210" apn="" protocol="IPV6" roaming_protocol="IPV6" type="emergency" />
+<apn carrier="T-Mobile US 220 Emergency" mcc="310" mnc="220" apn="" protocol="IPV6" roaming_protocol="IPV6" type="emergency" />
+<apn carrier="T-Mobile US 230 Emergency" mcc="310" mnc="230" apn="" protocol="IPV6" roaming_protocol="IPV6" type="emergency" />
+<apn carrier="T-Mobile US 240 Emergency" mcc="310" mnc="240" apn="" protocol="IPV6" roaming_protocol="IPV6" type="emergency" />
+<apn carrier="T-Mobile US 250 Emergency" mcc="310" mnc="250" apn="" protocol="IPV6" roaming_protocol="IPV6" type="emergency" />
+<apn carrier="T-Mobile US 260 Emergency" mcc="310" mnc="260" apn="" protocol="IPV6" roaming_protocol="IPV6" type="emergency" />
+<apn carrier="T-Mobile US 310 Emergency" mcc="310" mnc="310" apn="" protocol="IPV6" roaming_protocol="IPV6" type="emergency" />
 <apn carrier="ATT SOS" mcc="310" mnc="380" apn="" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
 <apn carrier="ATT SOS(wifi)" mcc="310" mnc="380" apn="sos" network_type_bitmask="18" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
 <apn carrier="ATT SOS" mcc="310" mnc="410" apn="" protocol="IPV4V6" roaming_protocol="IPV4V6" type="emergency" />
